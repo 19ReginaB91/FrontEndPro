@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0df73;
+    background-image: radial-gradient(49% 81% at 45% 47%,
+     #FFE20345 0%, #073AFF00 100%),
+     radial-gradient(113% 91% at 17% -2%,
+      #FF5A00FF 1%, #FF000000 99%),
+      radial-gradient(142% 91% at 83% 7%,
+       #FFDB00FF 1%, #FF000000 99%),
+       radial-gradient(142% 91% at -6% 74%,
+        #FF0049FF 1%, #FF000000 99%),
+        radial-gradient(142% 91% at 111% 84%,
+         #FF7000FF 0%, #FF0000FF 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+table {
+    border: 2px rgb(82, 13, 82);
+    border-radius: 20px;
+    border-style: dotted dashed solid double;
+    
+
+}
+
+h1 {
+    font-family:  italic 1.2em "Fira Sans", serif; 
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #0a1c1e;
+background: #e9e6e6;
+text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px 
+#808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px 
+#cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px 
+#808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px
+ #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px
+  #808d93, -8px 7px #cdd2d5;
+    font-weight: 700;
+    text-decoration: underline solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    padding: 80px;
+    margin: auto;
+    
+  }
+  h1{
+    background-image:url("../media/family.jpg");
+    width: 900px;
+    height: 400px;
+    opacity: 0,3;
+
+  }
+
+p {
+    display: flex;
+    font-family:  italic 1.2em "Fira Sans", serif; 
+    color: #f4eded;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px;
+    text-align: center;
+   }
+
+th{
+    background-color: #ededed;
+    text-align: center;
+   
+}
+
+
+th, td{
+padding: 10px;
+border-radius: 20px;
+border: solid 3px rgb(80, 1, 80);
+font-family:  italic 1.2em "Fira Sans", serif; 
+
+
+
+
+justify-content: space-around ;
+}
+
+a {
+    color: #f6f5f5;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.a:hover {
+    border-bottom: 2px solid #FF4500;
+}
+
+img {
+    border: 5px solid #FF4500;
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 80%;
+}
